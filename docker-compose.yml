@@ -1,0 +1,8 @@
+version: '3'
+services:
+  angular-1:
+    build:
+      dockerfile: Dockerfile
+    container_name: angular
+    ports: 
+      - "4200:4200" 
